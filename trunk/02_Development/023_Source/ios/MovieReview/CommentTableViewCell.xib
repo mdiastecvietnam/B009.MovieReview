@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="172" id="KGk-i7-Jjw" customClass="CommentTableViewCell" customModule="MovieReview" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="172"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIP-IV-sAK">
+                        <rect key="frame" x="8" y="8" width="284" height="155"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZI-Ql-pCW">
+                                <rect key="frame" x="1" y="1" width="141" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Dv5-Sy-OmB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" placeholderIntrinsicWidth="282" placeholderIntrinsicHeight="37" translatesAutoresizingMaskIntoConstraints="NO" id="EIB-tj-CGb" customClass="RatingView">
+                                <rect key="frame" x="147" y="5" width="137" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="4dS-CW-t6f"/>
+                                    <constraint firstAttribute="width" constant="137" id="5On-4g-9BU"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleAspectFit" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyw-gj-2BE">
+                                <rect key="frame" x="1" y="22" width="282" height="133"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="TZI-Ql-pCW" firstAttribute="top" secondItem="KIP-IV-sAK" secondAttribute="top" constant="1" id="3lc-vb-ccc"/>
+                            <constraint firstItem="eyw-gj-2BE" firstAttribute="leading" secondItem="KIP-IV-sAK" secondAttribute="leading" constant="1" id="NmM-sr-PsG"/>
+                            <constraint firstAttribute="trailing" secondItem="EIB-tj-CGb" secondAttribute="trailing" id="Qvt-Zl-MCF"/>
+                            <constraint firstAttribute="trailing" secondItem="TZI-Ql-pCW" secondAttribute="trailing" multiplier="2:1" id="c8K-6q-sh1"/>
+                            <constraint firstAttribute="trailing" secondItem="eyw-gj-2BE" secondAttribute="trailing" constant="1" id="cXt-j7-HcR"/>
+                            <constraint firstAttribute="bottom" secondItem="eyw-gj-2BE" secondAttribute="bottom" id="ezW-uE-hsn"/>
+                            <constraint firstItem="EIB-tj-CGb" firstAttribute="top" secondItem="KIP-IV-sAK" secondAttribute="top" constant="5" id="gbj-Eh-GXK"/>
+                            <constraint firstItem="TZI-Ql-pCW" firstAttribute="leading" secondItem="KIP-IV-sAK" secondAttribute="leading" constant="1" id="qMH-qu-4WU"/>
+                            <constraint firstItem="eyw-gj-2BE" firstAttribute="top" secondItem="TZI-Ql-pCW" secondAttribute="bottom" constant="1" id="y3G-p9-fd0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KIP-IV-sAK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="7uq-nX-4v5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="KIP-IV-sAK" secondAttribute="trailing" id="EEJ-Xp-qYd"/>
+                    <constraint firstItem="KIP-IV-sAK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="TNB-hu-anc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="KIP-IV-sAK" secondAttribute="bottom" id="he1-Tc-Els"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="account" destination="TZI-Ql-pCW" id="WWe-le-DIi"/>
+                <outlet property="comment" destination="eyw-gj-2BE" id="xPq-oW-3Ss"/>
+                <outlet property="rateStar" destination="EIB-tj-CGb" id="t2c-K4-172"/>
+            </connections>
+            <point key="canvasLocation" x="524" y="515"/>
+        </tableViewCell>
+    </objects>
+</document>

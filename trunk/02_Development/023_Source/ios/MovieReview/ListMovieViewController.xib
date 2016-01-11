@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListMovieViewController" customModule="MovieReview" customModuleProvider="target">
+            <connections>
+                <outlet property="movieList" destination="3UR-Hg-1J0" id="QxS-Te-bsl"/>
+                <outlet property="searchBar" destination="zac-gC-MnZ" id="N6p-XP-VJe"/>
+                <outlet property="view" destination="iN0-l3-epB" id="4m6-Fa-Oyy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="zac-gC-MnZ">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="b6Y-Zo-Z39"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="LcL-8U-Rvs"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3UR-Hg-1J0">
+                    <rect key="frame" x="0.0" y="35" width="600" height="565"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="eAF-sa-VGe"/>
+                        <outlet property="delegate" destination="-1" id="ePG-ji-1UP"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="zac-gC-MnZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7fa-zP-4OZ"/>
+                <constraint firstAttribute="trailing" secondItem="3UR-Hg-1J0" secondAttribute="trailing" id="DRY-nw-qJS"/>
+                <constraint firstAttribute="bottom" secondItem="3UR-Hg-1J0" secondAttribute="bottom" id="El3-7i-8im"/>
+                <constraint firstItem="zac-gC-MnZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" placeholder="YES" id="b0K-qs-Sbe"/>
+                <constraint firstAttribute="trailing" secondItem="zac-gC-MnZ" secondAttribute="trailing" id="crT-EZ-c4Q"/>
+                <constraint firstItem="3UR-Hg-1J0" firstAttribute="top" secondItem="zac-gC-MnZ" secondAttribute="bottom" id="mZk-c6-aMh"/>
+                <constraint firstItem="3UR-Hg-1J0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sXy-wW-XfW"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

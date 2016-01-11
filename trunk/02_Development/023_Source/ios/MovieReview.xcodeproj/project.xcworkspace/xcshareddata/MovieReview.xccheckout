@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B9B6BDB7-5E40-4936-8528-4818734EB69A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MovieReview</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>f41c3a2c-52bd-4007-91c1-e719b1133c0b</key>
+		<string>http://172.33.0.10/svn/B009.MovieReview</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/02_Development/023_Source/ios/MovieReview.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>f41c3a2c-52bd-4007-91c1-e719b1133c0b</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>f41c3a2c-52bd-4007-91c1-e719b1133c0b</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f41c3a2c-52bd-4007-91c1-e719b1133c0b</string>
+			<key>IDESourceControlWCCName</key>
+			<string>B009.MovieReview</string>
+		</dict>
+	</array>
+</dict>
+</plist>

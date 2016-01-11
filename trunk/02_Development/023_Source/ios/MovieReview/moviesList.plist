@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>title</key>
+		<string>Cánh đồng hoang</string>
+		<key>trialer</key>
+		<string>https://storage.googleapis.com/trailer_movies/Jurassic%20World.mp4</string>
+		<key>Descrip</key>
+		<string>đạo diễn Hồng Sến, Không gian đề cập tới trong bộ phim chỉ vỏn vẹn trong chu vi của một cánh đồng hoang, nhưng lại khai thác cả không gian từ dưới nước (phía dưới mặt nước cánh đồng) đến tận trên không (nơi máy bay Mỹ đang quần thảo).</string>
+		<key>url</key>
+		<string>http://vytv.vn/upload/CanhDongHoang.jpg</string>
+		<key>commentList</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>1</string>
+				<key>account</key>
+				<string>user1</string>
+				<key>comment</key>
+				<string>phim hay</string>
+				<key>rate</key>
+				<string>4</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>2</string>
+				<key>account</key>
+				<string>user2</string>
+				<key>comment</key>
+				<string>phim rất hay</string>
+				<key>rate</key>
+				<string>5</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>3</string>
+				<key>account</key>
+				<string>user3</string>
+				<key>comment</key>
+				<string>bình thường</string>
+				<key>rate</key>
+				<string>3</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>1</string>
+				<key>account</key>
+				<string>user4</string>
+				<key>comment</key>
+				<string>aboigigihklkl</string>
+				<key>rate</key>
+				<string>1</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2</string>
+		<key>title</key>
+		<string>Mùi cỏ cháy</string>
+		<key>trialer</key>
+		<string>http://vytv.vn/upload/CanhDongHoang.jpg</string>
+		<key>Descrip</key>
+		<string>đạo diễn Nguyên Hữu Mười</string>
+		<key>url</key>
+		<string>http://www.studentkgu.vn/file/pic/gallery/7972_view.jpg</string>
+		<key>commentList</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>1</string>
+				<key>account</key>
+				<string>user4</string>
+				<key>comment</key>
+				<string>bình thường</string>
+				<key>rate</key>
+				<string>3</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>2</string>
+				<key>account</key>
+				<string>user1</string>
+				<key>comment</key>
+				<string>hay</string>
+				<key>rate</key>
+				<string>4</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>3</string>
+		<key>title</key>
+		<string>Cuốn theo chiều gió</string>
+		<key>trialer</key>
+		<string>https://youtu.be/rtZ0noEqkto</string>
+		<key>Descrip</key>
+		<string>Margaret Mitchell</string>
+		<key>url</key>
+		<string>http://upload.wikimedia.org/wikipedia/vi/thumb/6/6b/Gone_with_the_Wind_cover.jpg/200px-Gone_with_the_Wind_cover.jpg</string>
+		<key>commentList</key>
+		<array/>
+	</dict>
+</array>
+</plist>
